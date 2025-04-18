@@ -13,3 +13,10 @@ if (close) {
         nav.classList.remove('active');
     })    
 }
+
+const Images = document.querySelectorAll(".pro img");
+for(let img of Images){
+    img.addEventListener("click",()=>{
+        window.location.href='sproduct.html';
+    })    
+}
